@@ -1,348 +1,348 @@
-        * {
-            display: flex;
-        }
-        
-        body {
-            z-index: 0;
-            box-sizing: border-box;
-            background: #141B1C;
-            position: relative;
-            width: 1440px;
-            height: 1000px;
-            flex-direction: row;
-        }
-        
-        .main,
-        .block1 {
-            z-index: 1;
-            width: 380px;
-            height: 770px;
-            background-color: #334247;
-            margin-top: 115px;
-            margin-bottom: 115px;
-        }
-        
-        .block1 {
-            position: relative;
-            z-index: 2;
-            margin-left: 132px;
-        }
-        
-        .title1 {
-            height: 64px;
-            width: 100px;
-            left: 140px;
-            top: 33px;
-            margin: 33 140 673 140;
-            font-family: "Montserrat";
-            font-weight: 300;
-            color: white;
-            font-size: 25px;
-            justify-content: center;
-            align-items: center;
-            line-height: 30.48px;
-            font-family: normal;
-            font-weight: 700;
-            font-size: 35px;
-            line-height: 43px;
-            text-align: center;
-        }
-        
-        .brtitle1 {
-            font-family: "Roboto";
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 14px;
-            letter-spacing: 0px;
-            text-align: center;
-        }
-        
-        .price1 {
-            position: absolute;
-            width: 380px;
-            height: 105px;
-            background-color: #5BB189;
-            margin-top: 130px;
-            margin-bottom: 535px;
-        }
-        
-        .spanprice1 {
-            color: white;
-            margin: 19 110 19 150;
-            position: absolute;
-            font-family: "Montserrat";
-            font-size: 55px;
-            font-weight: bold;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 67px;
-            letter-spacing: 0px;
-            text-align: center;
-        }
-        
-        .describe1 {
-            text-align: center;
-            width: 327.49px;
-            height: 36px;
-            position: absolute;
-            margin: 275 26.51 459 26;
-            color: white;
-        }
-        
-        .l01 {
-            color: white;
-            position: absolute;
-            flex-direction: column;
-            width: 380px;
-            margin-top: 351px;
-        }
-        
-        .li {
-            font-family: "Montserrat";
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 18px;
-            letter-spacing: 0px;
-            text-align: left;
-        }
-        
-        .button1 {
-            position: absolute;
-            width: 154.63px;
-            height: 40px;
-            border-radius: 20px;
-            background-color: #5BB189;
-            margin: 690 113 40 112;
-        }
-        
-        .spanbutton1 {
-            position: absolute;
-            font-family: "Montserrat";
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 17px;
-            letter-spacing: 0px;
-            height: 17px;
-            width: 99.91453552246094px;
-            left: 27.97607421875px;
-            top: 11px;
-            color: white;
-        }
-        
-        .pictures {
-            height: 13px;
-            width: 15px;
-            left: 22px;
-            top: 369px;
-            border-radius: 0px;
-            padding-right: 15px;
-        }
-        
-        .block2 {
-            margin-left: 18px;
-            position: relative;
-            z-index: 2;
-        }
-        
-        .recomended {
-            overflow: hidden;
-            z-index: 3;
-            position: absolute;
-            background-color: #DC3F45;
-            transform: rotate(-45deg);
-            height: 147px;
-            width: 25px;
-            margin: -19 -25 665 276;
-        }
-        
-        .spanrec {
-            transform: rotate(90deg);
-            position: relative;
-        }
-        
-        .title2 {
-            height: 64px;
-            width: 100px;
-            left: 140px;
-            top: 33px;
-            margin: 33 140 673 140;
-            font-family: "Montserrat";
-            font-weight: 300;
-            color: white;
-            font-size: 25px;
-            justify-content: center;
-            align-items: center;
-            line-height: 30.48px;
-            font-family: normal;
-            font-weight: 700;
-            font-size: 35px;
-            line-height: 43px;
-            text-align: center;
-        }
-        
-        .brtitle2 {
-            font-family: "Roboto";
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 14px;
-            letter-spacing: 0px;
-            text-align: center;
-        }
-        
-        .price2 {
-            position: absolute;
-            width: 380px;
-            height: 105px;
-            background-color: #1F3D63;
-            margin-top: 130px;
-            margin-bottom: 535px;
-        }
-        
-        .spanprice2 {
-            color: white;
-            margin: 19 110 19 150;
-            position: absolute;
-            font-family: "Montserrat";
-            font-size: 55px;
-            font-weight: bold;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 67px;
-            letter-spacing: 0px;
-            text-align: center;
-        }
-        
-        .describe2 {
-            text-align: center;
-            width: 327.49px;
-            height: 36px;
-            position: absolute;
-            margin: 275 26.51 459 26;
-            color: white;
-        }
-        
-        .l02 {
-            color: white;
-            position: absolute;
-            flex-direction: column;
-            width: 380px;
-            margin-top: 351px;
-        }
-        
-        .lmem {
-            width: 380px;
-            height: 50px;
-        }
-        
-        .list2>div {
-            padding: 16 21 16 59;
-        }
-        
-        .button2 {
-            position: absolute;
-            width: 154.63px;
-            height: 40px;
-            border-radius: 20px;
-            background-color: #3A6BA5;
-            margin: 690 113.37 40 112;
-        }
-        
-        .block3 {
-            margin-left: 18px;
-            position: relative;
-            z-index: 2;
-        }
-        
-        .title3 {
-            height: 64px;
-            width: 100px;
-            left: 140px;
-            top: 33px;
-            margin: 33 140 673 140;
-            font-family: "Montserrat";
-            font-weight: 300;
-            color: white;
-            font-size: 25px;
-            justify-content: center;
-            align-items: center;
-            line-height: 30.48px;
-            font-family: normal;
-            font-weight: 700;
-            font-size: 35px;
-            line-height: 43px;
-            text-align: center;
-        }
-        
-        .brtitle3 {
-            font-family: "Roboto";
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 14px;
-            letter-spacing: 0px;
-            text-align: center;
-        }
-        
-        .price3 {
-            position: absolute;
-            width: 380px;
-            height: 105px;
-            background-color: #EC632A;
-            margin-top: 130px;
-            margin-bottom: 535px;
-        }
-        
-        .spanprice3 {
-            color: white;
-            margin: 19 110 19 150;
-            position: absolute;
-            font-family: "Montserrat";
-            font-size: 55px;
-            font-weight: bold;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 67px;
-            letter-spacing: 0px;
-            text-align: center;
-        }
-        
-        .describe3 {
-            text-align: center;
-            width: 327.49px;
-            height: 36px;
-            position: absolute;
-            margin: 275 26.51 459 26;
-            color: white;
-        }
-        
-        .personal {
-            color: white;
-            position: absolute;
-            width: 380px;
-            margin-top: 351px;
-        }
-        
-        .l03 {
-            color: white;
-            position: absolute;
-            flex-direction: column;
-            width: 380px;
-            margin-top: 351px;
-        }
-        
-        .list3>div {
-            padding: 16 21 16 59;
-        }
-        
-        .button3 {
-            position: absolute;
-            width: 154.63px;
-            height: 40px;
-            border-radius: 20px;
-            background-color: #EC632A;
-            margin: 690 113.37 40 112;
-        }
+    * {
+        display: flex;
+    }
+    
+    body {
+        z-index: 0;
+        box-sizing: border-box;
+        background: #141B1C;
+        position: relative;
+        width: 1440px;
+        height: 1000px;
+        flex-direction: row;
+    }
+    
+    .main,
+    .block1 {
+        z-index: 1;
+        width: 380px;
+        height: 770px;
+        background-color: #334247;
+        margin-top: 115px;
+        margin-bottom: 115px;
+    }
+    
+    .block1 {
+        position: relative;
+        z-index: 2;
+        margin-left: 132px;
+    }
+    
+    .title1 {
+        height: 64px;
+        width: 100px;
+        left: 140px;
+        top: 33px;
+        margin: 33 140 673 140;
+        font-family: "Montserrat";
+        font-weight: 300;
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        line-height: 30.48px;
+        font-family: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+    }
+    
+    .brtitle1 {
+        font-family: "Roboto";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .price1 {
+        position: absolute;
+        width: 380px;
+        height: 105px;
+        background-color: #5BB189;
+        margin-top: 130px;
+        margin-bottom: 535px;
+    }
+    
+    .spanprice1 {
+        color: white;
+        margin: 19 110 19 150;
+        position: absolute;
+        font-family: "Montserrat";
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 67px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .describe1 {
+        text-align: center;
+        width: 327.49px;
+        height: 36px;
+        position: absolute;
+        margin: 275 26.51 459 26;
+        color: white;
+    }
+    
+    .l01 {
+        color: white;
+        position: absolute;
+        flex-direction: column;
+        width: 380px;
+        margin-top: 351px;
+    }
+    
+    .li {
+        font-family: "Montserrat";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    
+    .button1 {
+        position: absolute;
+        width: 154.63px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5BB189;
+        margin: 690 113 40 112;
+    }
+    
+    .spanbutton1 {
+        position: absolute;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        height: 17px;
+        width: 99.91453552246094px;
+        left: 27.97607421875px;
+        top: 11px;
+        color: white;
+    }
+    
+    .pictures {
+        height: 13px;
+        width: 15px;
+        left: 22px;
+        top: 369px;
+        border-radius: 0px;
+        padding-right: 15px;
+    }
+    
+    .block2 {
+        margin-left: 18px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .recomended {
+        overflow: hidden;
+        z-index: 3;
+        position: absolute;
+        background-color: #DC3F45;
+        transform: rotate(-45deg);
+        height: 147px;
+        width: 25px;
+        margin: -19 -25 665 276;
+        text-align: justify;
+    }
+    
+    .text {
+        text-align: justify;
+    }
+    
+    .title2 {
+        height: 64px;
+        width: 100px;
+        left: 140px;
+        top: 33px;
+        margin: 33 140 673 140;
+        font-family: "Montserrat";
+        font-weight: 300;
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        line-height: 30.48px;
+        font-family: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+    }
+    
+    .brtitle2 {
+        font-family: "Roboto";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .price2 {
+        position: absolute;
+        width: 380px;
+        height: 105px;
+        background-color: #1F3D63;
+        margin-top: 130px;
+        margin-bottom: 535px;
+    }
+    
+    .spanprice2 {
+        color: white;
+        margin: 19 110 19 150;
+        position: absolute;
+        font-family: "Montserrat";
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 67px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .describe2 {
+        text-align: center;
+        width: 327.49px;
+        height: 36px;
+        position: absolute;
+        margin: 275 26.51 459 26;
+        color: white;
+    }
+    
+    .l02 {
+        color: white;
+        position: absolute;
+        flex-direction: column;
+        width: 380px;
+        margin-top: 351px;
+    }
+    
+    .lmem {
+        width: 380px;
+        height: 50px;
+    }
+    
+    .list2>div {
+        padding: 16 21 16 59;
+    }
+    
+    .button2 {
+        position: absolute;
+        width: 154.63px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #3A6BA5;
+        margin: 690 113.37 40 112;
+    }
+    
+    .block3 {
+        margin-left: 18px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .title3 {
+        height: 64px;
+        width: 100px;
+        left: 140px;
+        top: 33px;
+        margin: 33 140 673 140;
+        font-family: "Montserrat";
+        font-weight: 300;
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        line-height: 30.48px;
+        font-family: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        text-align: center;
+    }
+    
+    .brtitle3 {
+        font-family: "Roboto";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .price3 {
+        position: absolute;
+        width: 380px;
+        height: 105px;
+        background-color: #EC632A;
+        margin-top: 130px;
+        margin-bottom: 535px;
+    }
+    
+    .spanprice3 {
+        color: white;
+        margin: 19 110 19 150;
+        position: absolute;
+        font-family: "Montserrat";
+        font-size: 55px;
+        font-weight: bold;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 67px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    
+    .describe3 {
+        text-align: center;
+        width: 327.49px;
+        height: 36px;
+        position: absolute;
+        margin: 275 26.51 459 26;
+        color: white;
+    }
+    
+    .personal {
+        color: white;
+        position: absolute;
+        width: 380px;
+        margin-top: 351px;
+    }
+    
+    .l03 {
+        color: white;
+        position: absolute;
+        flex-direction: column;
+        width: 380px;
+        margin-top: 351px;
+    }
+    
+    .list3>div {
+        padding: 16 21 16 59;
+    }
+    
+    .button3 {
+        position: absolute;
+        width: 154.63px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #EC632A;
+        margin: 690 113.37 40 112;
+    }
