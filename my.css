@@ -28,27 +28,7 @@ body {
     margin-left: 132px;
 }
 
-.title1 {
-    height: 64px;
-    width: 100px;
-    left: 140px;
-    top: 33px;
-    margin: 33 140 673 140;
-    font-family: "Montserrat";
-    font-weight: 300;
-    color: white;
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    line-height: 30.48px;
-    font-family: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
-    text-align: center;
-}
-
-.brtitle1 {
+.t02 {
     font-family: "Roboto";
     font-size: 12px;
     font-style: normal;
@@ -67,7 +47,7 @@ body {
     margin-bottom: 535px;
 }
 
-.spanprice1 {
+.price01 {
     color: white;
     margin: 19 110 19 150;
     position: absolute;
@@ -112,10 +92,6 @@ body {
 }
 
 .button1 {
-    position: absolute;
-    width: 154.63px;
-    height: 40px;
-    border-radius: 20px;
     background-color: #5BB189;
     margin: 690 113 40 112;
 }
@@ -170,7 +146,9 @@ body {
     top: calc(50% - 17px/2 - 25px);
 }
 
-.title2 {
+.t01,
+.t02,
+.t03 {
     height: 64px;
     width: 100px;
     left: 140px;
@@ -190,16 +168,6 @@ body {
     text-align: center;
 }
 
-.brtitle2 {
-    font-family: "Montserrat";
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 43px;
-    letter-spacing: 0px;
-    text-align: center;
-}
-
 .price2 {
     position: absolute;
     width: 380px;
@@ -209,7 +177,7 @@ body {
     margin-bottom: 535px;
 }
 
-.spanprice2 {
+.price02 {
     color: white;
     margin: 19 110 19 150;
     position: absolute;
@@ -250,11 +218,6 @@ body {
 }
 
 .button2 {
-    position: absolute;
-    width: 154.63px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #3A6BA5;
     margin: 690 113.37 40 112;
 }
 
@@ -262,36 +225,6 @@ body {
     margin-left: 18px;
     position: relative;
     z-index: 2;
-}
-
-.title3 {
-    height: 64px;
-    width: 100px;
-    left: 140px;
-    top: 33px;
-    margin: 33 140 673 140;
-    font-family: "Montserrat";
-    font-weight: 300;
-    color: white;
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    line-height: 30.48px;
-    font-family: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 43px;
-    text-align: center;
-}
-
-.brtitle3 {
-    font-family: "Roboto";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0px;
-    text-align: center;
 }
 
 .price3 {
@@ -303,7 +236,7 @@ body {
     margin-bottom: 535px;
 }
 
-.spanprice3 {
+.price03 {
     color: white;
     margin: 19 110 19 150;
     position: absolute;
@@ -346,10 +279,14 @@ body {
 }
 
 .button3 {
+    background-color: #EC632A;
+    margin: 690 113.37 40 112;
+}
+
+button {
     position: absolute;
     width: 154.63px;
     height: 40px;
     border-radius: 20px;
-    background-color: #EC632A;
-    margin: 690 113.37 40 112;
+    background-color: #3A6BA5;
 }
